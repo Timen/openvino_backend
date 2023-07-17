@@ -94,7 +94,6 @@ RUN /bin/bash -c 'cmake \
         -DCMAKE_INSTALL_PREFIX=/workspace/install \
         -DENABLE_VPU=OFF \
         -DENABLE_CLDNN=OFF \
-        -DTHREADING=OMP \
         -DENABLE_GNA=OFF \
         -DENABLE_DLIA=OFF \
         -DENABLE_TESTS=OFF \
